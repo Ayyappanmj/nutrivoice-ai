@@ -212,22 +212,7 @@ npm run build
 
 ---
 
-## 6. Demo Video Script & Walkthrough
-
-**Duration:** 2 Minutes  
-**Target Audience:** Hackathon Judges & Alexa+ Engineering Team
-
-| Time | Visual / UI Scene | Audio / Voiceover Track |
-|---|---|---|
-| **0:00 - 0:20** | Close-up of manual nutrition app. Frustrated user typing "salmon", scrolling through 50 drop-down options. Zoom out to clean kitchen with Echo Show. | *"Tracking macros is the single most effective health intervention, yet 73% of people quit because manual logging feels like a second job. What if logging your meal took four words?"* |
-| **0:20 - 0:50** | User speaks to Echo: *"Alexa, log a grilled salmon with quinoa and avocado."* Cut to NutriVoice AI Dashboard: Waveform lights up green, transcription card appears instantly. | *"Meet NutriVoice AI. Powered by Amazon Bedrock's Converse API and the Model Context Protocol. In 384 milliseconds, our agent breaks down speech into intent, extracts portion weights, and calculates exact calories and macros."* |
-| **0:50 - 1:15** | Dashboard zooms into **Agent Thought Breakdown** and **Daily Macro Target Rings**. Calories gauge animates to 1450, Protein to 122g. | *"Notice the live telemetry: Intent recognition, entity extraction, typed MCP tool call, and database commit. The radial target rings immediately update: 1450 calories consumed, leaving 750 for dinner."* |
-| **1:15 - 1:40** | User tests vague input: *"Alexa, log a slice of pizza."* Amber warning appears on screen: **Disambiguation Fallback Triggered**. Echo speaks back follow-up question. | *"What happens when food descriptions are ambiguous? Traditional skills guess or fail. NutriVoice AI detects ambiguity, logs a baseline placeholder, and immediately prompts Alexa: 'Was that cheese or pepperoni, and was it regular or deep dish?' Zero calorie drift."* |
-| **1:40 - 2:00** | Pan to **Bedrock MCP Tool Monitor** displaying live JSON-RPC payloads, token usage (342 tokens), and sub-second latency badge. Final splash screen with GitHub link. | *"Production-grade Pydantic v2 schemas, sub-second latency on Claude 3.5 Sonnet, and true MCP standard compliance. NutriVoice AI: Build, Ship, Shape with Alexa+ and AWS Bedrock."* |
-
----
-
-## 7. Developer Friction Log Highlights
+## 6. Developer Friction Log Highlights
 
 During the development of NutriVoice AI for the AWS Builder Mini Challenge, our engineering team maintained an active friction log. Key takeaways submitted to AWS DevRel:
 
@@ -244,7 +229,7 @@ During the development of NutriVoice AI for the AWS Builder Mini Challenge, our 
 
 ---
 
-## 8. License & Acknowledgments
+## 7. License & Acknowledgments
 
 NutriVoice AI is released under the **MIT License**.  
 Built for the **Amazon Developer Hackathon: Build, Ship, Shape (2026)**.  
